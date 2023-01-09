@@ -20,7 +20,7 @@ APP_NAMESPACE=runnable-run-public-zzc
 APP_REGISURL=registry.cn-hangzhou.aliyuncs.com
 APP_RESP=${APP_REGISURL}/${APP_NAMESPACE}/${APP}
 # 阿里云账号
-APP_USERNAME=1615538110005099
+APP_USERNAME=zzc12138
 # 阿里云配置个人容器镜像服务时，设置的密码
 APP_PASSWORD=zzc12138
 
