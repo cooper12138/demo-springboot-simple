@@ -15,14 +15,14 @@ APP_HOME=/dockerData/runnable-run/${APP_NAME}
 APP_OUT=${APP_HOME}/logs
 
 # 阿里云仓库命名空间
-APP_NAMESPACE=runnable-run
+APP_NAMESPACE=runnable-run-public-zzc
 # 推送至阿里云仓库的地址
-APP_REGISURL=
+APP_REGISURL=registry.cn-hangzhou.aliyuncs.com/runnable-run-public-zzc/demo-springboot-simple
 APP_RESP=${APP_REGISURL}/${APP_NAMESPACE}/${APP}
 # 阿里云账号
-APP_USERNAME=
+APP_USERNAME=1615538110005099
 # 阿里云配置个人容器镜像服务时，设置的密码
-APP_PASSWORD=
+APP_PASSWORD=zzc12138
 
 mkdir -p ${APP_HOME}
 mkdir -p ${APP_HOME}/logs
